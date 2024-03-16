@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+.spaces {
+    height: 4rem;
+}
+
+.navbar-brand,
+.introHead {
+    font-family: "Kaushan Script", cursive !important;
+    font-size: 1.5rem;
+}
+
+.introbox {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(239, 239, 239, 0.721);
+    border-radius: 0.5rem;
+}
+
+.secHead {
+    text-align: center;
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 2.5rem;
+}
+
+#desc{
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.base {
+    background-color: rgba(215, 215, 215, 0.283);
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.cardModel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    max-width: 18rem;
+}
+
+.secHead2 {
+    font-family: "Libre Baskerville", serif;
+}
